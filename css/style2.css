@@ -1,0 +1,85 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat:wght@400;700&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css");
+/*
+handlee y monstserrat 400, 700
+font-family: 'Handlee', cursive;
+font-family: 'Montserrat', sans-serif;
+*/
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+
+:root {
+    --color-principal: #fa573a;
+    --color-secundario: white;
+    --fuentePrincipal: 'Montserrat', sans-serif;
+    --fuenteSecundario: 'Handlee', cursive;
+    --anchoMaximo: 1100px;
+}
+
+body{
+    background-color: rgb(19, 18, 18);
+}
+
+header {
+    margin-bottom: 90px;
+}
+
+header  section {
+    padding: 2.125em 0;
+}
+
+header  section h1 {
+    color: var(--color-secundario);
+    font-family: var(--fuenteSecundario);
+    font-size: 1.256em;
+    text-align: center;
+}
+
+
+header section h1 span {
+    color: var(--color-principal);
+}
+
+header  section .underline {
+    position: relative;
+    width: 2.750em;
+    margin: 0 auto;
+    color: var(--color-principal);
+    font-weight: bold;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+header section .underline hr {
+    border-color: var(--color-principal);
+    position: absolute;
+    width: 100%;
+    top: -0.063em;
+}
+
+header  ul{
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    padding: 60px;
+    transition: 1s;
+}
+
+header .enlace{
+    color: white;
+    width: auto;
+    line-height: 25px;
+    table-layout: var(--color-principal);
+    
+
+}
+
+
+
