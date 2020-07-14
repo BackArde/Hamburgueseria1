@@ -1,0 +1,276 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat:wght@400;700&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css");
+/*
+handlee y monstserrat 400, 700
+font-family: 'Handlee', cursive;
+font-family: 'Montserrat', sans-serif;
+*/
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+
+:root {
+    --color-principal: #fa573a;
+    --color-secundario: white;
+    --fuentePrincipal: 'Montserrat', sans-serif;
+    --fuenteSecundario: 'Handlee', cursive;
+    --anchoMaximo: 1100px;
+}
+
+body{
+    background-color: rgb(22, 21, 21);
+    font-family: var(--fuentePrincipal);
+    color: white;
+  
+    
+}
+
+/* inicio header */
+
+
+header  section {
+    margin-left: 15%;
+    margin-top: 10%;
+   
+}
+
+header  section h1 {
+    color:var(--color-secundario);
+    font-family: var(--fuenteSecundario);
+    font-size: 1.500em;
+    text-align: center;
+}
+
+
+header section h1 span {
+    color: var(--color-principal);
+
+}
+
+header  section .underline {
+    position: relative;
+    width: 2.5em;
+    margin: 0 auto;
+    color: var(--color-principal);
+    font-weight: bold;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+header section .underline hr {
+    border-color: var(--color-principal);
+    position: absolute;
+    width: 100%;
+    top: -0.063em;
+}
+
+@media(min-width: 48.000em) {
+    header section{
+
+        font-size: 2.500em;
+        margin-left: auto;
+        margin-top: 5%;
+    }
+}
+    
+    
+
+/* fin de header */
+
+body  ul{
+    display: block;
+    text-align:left;
+    text-decoration: none;
+    font-size: 0.600em;
+    transition: 1s;
+    margin-top: 5%;
+    margin-left: 15%;
+    
+}
+
+body .enlace{
+    color: white;
+    width: auto;
+    line-height: 25px;
+    table-layout: var(--color-principal);
+    
+
+}
+
+@media(min-width: 48.000em) {
+    body ul{
+
+        font-size: 1.750em;
+        margin-left: 15%;
+        margin-top: 15px;
+    }
+}
+
+/* inicio hero */
+
+.hero {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+}
+
+.hero .container {
+    width: 90%;
+    
+}
+
+.hero  h2 {
+    font-family: var(--fuentePrincipal);
+    font-size: 2.em;
+    height: 15px;
+    margin-left: 12%;
+    margin-top: 7%;
+    
+}
+
+
+
+.hero  .underline hr{
+    color: var(--color-principal);
+    width: 35px;
+    margin-inline-start: inherit;
+    margin-left: 13%;
+    
+}
+    
+
+.hero h3 {
+    color: white;
+    font-size: 0.550em;
+    margin: 1em ;
+    margin-left: 12%;
+   
+}
+
+@media(min-width: 48.000em) {
+    .hero h2 {
+
+        font-size: 1.750em;
+        margin-left: 30%;
+        margin-top: 15px;
+        margin-block-start:0; 
+    }
+}
+
+.hero img {
+    width: 70%;
+    margin-top: 15px;
+    margin-left: 15%;
+}
+
+.hero h4 {
+    color:white;
+    font-size: 0.750em; 
+    font-family: var(--fuentePrincipal);
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+.hero h4 align {
+    color:var(--color-principal);
+    margin-left: 10px;
+}
+
+.hero p {
+    color: white;
+    font-size: 0.550em;
+    margin-left: 15%;
+    margin-top: 9px;
+}
+
+.hero main a {
+    color: var(--color-principal);
+    margin-left: 15%;
+    font-size: 0.550em;
+    margin-top: 10px;
+}
+
+
+.enlace {
+    text-decoration: none;
+    margin-top: 0.400em;
+    display: block;
+    color: var(--color-principal);
+}
+
+
+@media(min-width: 48.000em) {
+    .hero img{
+       margin-left: 120%;
+       width: 47%;
+       margin-block-start: -305px;
+       margin-block-end: 305px;
+   }
+}
+
+@media(min-width: 48.000em) {
+    .hero h4{
+       margin-left: 175%;
+       width: 65%;
+       margin-block-start: -480px;
+       margin-block-end: 480px;
+       font-size: 1.000em;
+   }
+
+   .hero p{
+    margin-left: 175%;
+    width: 65%;
+    margin-block-start: -420px;
+    margin-block-end: 420px;
+    font-size: 0.900em;
+   }
+
+   .hero main a {
+    margin-left:175%;
+    width: 65%;
+    margin-block-start: -380px;
+    margin-block-end: 380px;
+    font-size: 0.900em;
+   }
+
+}
+
+
+
+@media(min-width: 48.000em) {
+    .hero #TodaysHotOffers h2 {
+
+        font-size: 1.750em;
+        margin-left: 39%;
+        margin-top: 100px;
+    }
+
+    .hero .underline hr {
+        margin-left: 39%;
+        margin-block-start:15px ;
+        margin-block-end: 15px;
+        width: 64px;
+    }
+
+    .hero h3 {
+        font-size: 0.750em;
+        margin-left: 39%;
+        margin-block-start:15px ;
+        margin-block-end: 15px;
+        
+    }
+}
+
+
+
+
+    
