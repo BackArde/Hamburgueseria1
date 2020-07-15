@@ -34,11 +34,13 @@ header  section h1 {
     font-family: var(--fuenteSecundario);
     font-size: 1.000em;
     text-align: center;
+   
 }
 
 
 header section h1 span {
     color: var(--color-principal);
+   
     
 
 }
@@ -51,13 +53,14 @@ header  section .underline {
     font-weight: bold;
     margin-bottom: 1.950em;
     text-align: center;
+    
 }
 
 header section .underline hr {
     border-color: var(--color-principal);
     position: absolute;
     width: 100%;
-    top: -0.063em;
+    top: -0.090em;
 }
 
 
@@ -159,6 +162,10 @@ header section .underline hr {
 
 }
 
+.hero ul image{
+
+}
+
 @media(min-width: 48.000em){
     .hero  img{
        
@@ -214,6 +221,37 @@ header section .underline hr {
     }
     .hero main .enlace {
         font-size: 15px;
+    }
+}
+@media(min-width: 48.000em){
+    .hero  ul img {
+        margin-left: 62%;
+        margin-block-start: -22.95%;
+        margin-block-end: 27% ;
+    }
+    .hero h5{
+        margin-left: 62.3%;
+        margin-block-start: -495px;
+        margin-block-end: 27% ;
+        font-size: 25px;
+        font-family: var(--fuentePrincipal);
+
+    }
+    .hero h6 {
+        margin-left: 62.3%;
+        margin-block-start: -497px;
+        margin-block-end: 27% ;
+        font-size: 15px;
+        color: var(--color-principal);
+        font-family: var(--fuentePrincipal);
+    }
+    .hero ul p{
+        margin-left: 62.3%;
+        margin-block-start: -497px;
+        margin-block-end: 27% ;
+        font-size: 15px;
+        font-family: var(--fuentePrincipal);
+        margin-right: 19%;
     }
 }
 
