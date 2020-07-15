@@ -145,6 +145,7 @@ body .enlace{
     margin-inline-start: inherit;
     margin-left: 13%;
     
+    
 }
     
 
@@ -259,6 +260,7 @@ body .enlace{
         margin-block-start:15px ;
         margin-block-end: 15px;
         width: 64px;
+        color: var(--color-principal);
     }
 
     .hero h3 {
